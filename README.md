@@ -30,7 +30,6 @@ The project was developed using a multi-module Maven structure following Spring 
 
 ## Technologies Used
 
-- [Spring Boot](https://spring.io/projects/spring-boot)
 - [Spring Web MVC](https://docs.spring.io/spring-framework/reference/web/webmvc.html)
 - [Spring Data JPA](https://spring.io/projects/spring-data-jpa)
 - [Spring Security](https://spring.io/projects/spring-security)
@@ -54,6 +53,12 @@ The project was developed using a multi-module Maven structure following Spring 
 
 ```bash
 mvn clean install
+```
+
+# Run the data initializer
+
+```bash
+java -jar humanresources-data-init/target/humanresources-data-init-0.0.1-SNAPSHOT.jar
 ```
 
 ### Run the Application
