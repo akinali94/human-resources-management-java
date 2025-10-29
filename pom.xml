@@ -23,6 +23,7 @@
         <module>humanresources-repository</module>
         <module>humanresources-service</module>
         <module>humanresources-web</module>
+        <module>humanresources-data-init</module>
     </modules>
     
     <properties>
